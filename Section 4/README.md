@@ -8,9 +8,16 @@ Step 1: create and run cent:7 image
     docker container run -it -a cent cent:7 bash
     yum update curl
     curl --version
-
+    exit
+    
 Step 2: create and run ubuntu:14.04 image
 
     docker container run -it -a ubuntu ubuntu:14.04 bash
     apt update && apt install curl
     curl --version
+    exit
+
+Step 3: Delete docker images
+
+    docker container rm ubuntu
+    docker container rm cent
