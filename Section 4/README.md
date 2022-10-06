@@ -1,5 +1,4 @@
-CLI App Testing---------------------------------------------------------------
-
+# Assignment 2: CLI App Testing
 Problem Description:
 
 Imagine yourself being a support engineer for a server farm that runs both Ubuntu and CentOS, and a ticket comes in that asks you to check on the different curl versions in those two distributions.
