@@ -41,3 +41,8 @@ Step 3: Create 2 elasticsearch:2 containers
     docker container run -d --network dns_test --network-alias search elasticsearch:2
     
 Step 4: Test DNS Round Robin
+    
+    docker container run --rm --network dns_test centos curl -s search:9200
+    docker container run --rm --network dns_test alpine nslookup search
+    
+    
