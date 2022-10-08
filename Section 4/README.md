@@ -23,8 +23,7 @@ Step 3: Delete docker images
     docker container rm cent
 
 # Assignment 3: DNS Round Robin Test
-https://vegibit.com/dns-round-robin-in-docker/
-Problem Description:
+<a href="https://vegibit.com/dns-round-robin-in-docker/">Problem Description:</a>
 
 DNS Round Robin is the concept that you can have two different hosts with DNS Aliases that respond to the same DNS Name. Where might you find something like this? Consider a service like Instagram. They need more than one server to provide their service, yet users always go to the same Instagram.com domain to use the service. One name, many servers providing the service. In addition to load balancing and server scaling, DNS Round Robin is another technique big companies can use to ensure 24/7/365 uptime. In other words, there are several IP addresses and DNS Records supporting the one public-facing name end-users use(in this case Instagram.com). This same concept applies to containers and in this tutorial we’ll have a look at DNS Round Robin in Docker. 
 
