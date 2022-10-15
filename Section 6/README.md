@@ -4,7 +4,9 @@ Problem Description:
 ## Oracle
 Step 1: Login into oracle in docker
 
+
   docker login container-registry.oracle.com
+  
 
 Step 2: Pull Oracle DB image
 
