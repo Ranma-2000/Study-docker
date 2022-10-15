@@ -4,20 +4,18 @@ Problem Description:
 ## Oracle
 Step 1: Login into oracle in docker
 
-
   docker login container-registry.oracle.com
   
-
 Step 2: Pull Oracle DB image
 
   docker pull container-registry.oracle.com/database/standard
-
+  
 Step 3: Create ora_db_env.dat file
 
 Step 4: Run Oracle DB Container
 
   docker container run -d --env-file ./Documents/ora_db_env.dat -p 1521:1521 --shm-size="4g" -v oracledb_volume:/var/lib/ora/v1 --name my_oracle container-registry.oracle.com/database/standard
-
+  
 Step 5: Install DBeaver or SQLPlus
 
   
