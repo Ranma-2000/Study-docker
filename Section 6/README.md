@@ -1,5 +1,6 @@
 # Assignment 1: Databases Upgrade with Named Volumes
 Problem Description: 
+[![Section 6](https://img.youtube.com/vi/sd6ej36GgtI/0.jpg)](https://www.youtube.com/watch?v=sd6ej36GgtI)
 
 ## Oracle
 Step 1: Login into oracle in docker
